@@ -3,7 +3,7 @@
       zephyr,display = &st7789;
    };
 
-   prospector_green_theme: prospector_green_theme {
+   prospector_green_theme {
       compatible = "zmk,prospector-theme";
       left-panel-bg = <0x0D2C26>;
       mod-panel-bg = <0x708066>;
@@ -16,7 +16,7 @@
       mod-inactive-color = <0x4C564B>;
    };
 
-   prospector_blue_theme: prospector_blue_theme {
+   prospector_blue_theme {
       compatible = "zmk,prospector-theme";
       left-panel-bg = <0xACB9D3>;
       mod-panel-bg = <0x1448AA>;
@@ -29,7 +29,7 @@
       mod-inactive-color = <0x0C2B65>;
    };
 
-   prospector_red_theme: prospector_red_theme {
+   prospector_red_theme {
       compatible = "zmk,prospector-theme";
       left-panel-bg = <0xD77B7A>;
       mod-panel-bg = <0x7B4B5C>;
@@ -42,7 +42,7 @@
       mod-inactive-color = <0x471627>;
    };
 
-   prospector_purple_theme: prospector_purple_theme {
+   prospector_purple_theme {
       compatible = "zmk,prospector-theme";
       left-panel-bg = <0x212121>;
       mod-panel-bg = <0x858585>;
