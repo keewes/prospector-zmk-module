@@ -1,7 +1,7 @@
 // ...existing code...
 / {
    chosen {
-      zephyr,display = <&st7789_display>;
+      zephyr,display = &st7789;
    };
 
    prospector_green_theme: prospector_green_theme {
