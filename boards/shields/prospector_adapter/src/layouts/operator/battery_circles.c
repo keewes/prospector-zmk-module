@@ -13,11 +13,9 @@
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
 
 
-// #ifndef PERIPHERAL_COUNT
-// #define PERIPHERAL_COUNT ZMK_SPLIT_BLE_PERIPHERAL_COUNT
-// #endif
-
-#define PERIPHERAL_COUNT 2 //testing
+#ifndef PERIPHERAL_COUNT
+#define PERIPHERAL_COUNT ZMK_SPLIT_BLE_PERIPHERAL_COUNT
+#endif
 
 #define LOW_BATTERY_THRESHOLD 20
 #define ARC_WIDTH_CONNECTED 6
