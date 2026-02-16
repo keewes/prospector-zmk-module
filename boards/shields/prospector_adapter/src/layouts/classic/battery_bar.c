@@ -10,6 +10,7 @@
 #include <fonts.h>
 
 #define PERIPHERAL_COUNT 2
+#define ZMK_SPLIT_BLE_PERIPHERAL_COUNT 2
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
 
