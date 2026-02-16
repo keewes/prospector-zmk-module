@@ -9,6 +9,8 @@
 
 #include <fonts.h>
 
+#define PERIPHERAL_COUNT 2
+
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
 
 struct battery_update_state {
